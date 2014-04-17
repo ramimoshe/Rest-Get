@@ -1,8 +1,0 @@
-C:\temp\getRests2\restScraptor\restScraptor\obj\Debug\restScraptor.csprojResolveAssemblyReference.cache
-C:\temp\getRests2\restScraptor\restScraptor\bin\Debug\restScraptor.exe
-C:\temp\getRests2\restScraptor\restScraptor\bin\Debug\restScraptor.pdb
-C:\temp\getRests2\restScraptor\restScraptor\obj\Debug\restScraptor.exe
-C:\temp\getRests2\restScraptor\restScraptor\obj\Debug\restScraptor.pdb
-C:\temp\getRests2\restScraptor\restScraptor\bin\Debug\HtmlAgilityPack.dll
-C:\temp\getRests2\restScraptor\restScraptor\bin\Debug\HtmlAgilityPack.pdb
-C:\temp\getRests2\restScraptor\restScraptor\bin\Debug\HtmlAgilityPack.xml
