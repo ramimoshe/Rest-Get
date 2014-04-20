@@ -16,7 +16,8 @@ namespace RestaurantScrapter.Scrapers
         public static readonly string baseUrl = "http://www.rest.co.il/";
         public static readonly string allRestaurantsByPage = "http://www.rest.co.il/search.aspx?page={0}";
         public static readonly string categoriesUrl = "http://www.rest.co.il/ajax/SearchFilerAllItems.aspx?page=1&filter=types&multi=1&pagename=Search.aspx&_=1397994066119";
-        public static readonly string relativeUrlRestList = "search";
+        public static readonly string restaurantInfoUrl = "http://www.rest.co.il/Reviews.aspx?restId={0}";
+        // example: http://www.rest.co.il/Reviews.aspx?restId=7858
 
         public Dictionary<string, string> getRestaurantCategories()
         {
