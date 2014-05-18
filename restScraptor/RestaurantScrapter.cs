@@ -1,4 +1,6 @@
 ﻿using HtmlAgilityPack;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using RestaurantScrapter.Scrapers;
 using System;
 using System.Collections.Generic;
@@ -18,7 +20,17 @@ namespace restScraptor
             var restCategotries = rest.getRestaurantCategories();
             var restList = rest.GetResturants();
 
+            var client = new MongoClient("mongodb://localhost:27017");
+            var server = client.GetServer();
+            var database = server.GetDatabase("Lucky");
+            var collection = database.GetCollection("restaurants");
 
+            collection.InsertBatch(restList);
+
+            /*foreach (var document in collection.FindAll())
+            {
+                Console.WriteLine(document["name"]);
+            }*/
              
             
             Console.Read();  
