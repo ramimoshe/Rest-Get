@@ -32,7 +32,6 @@ namespace restScraptor
                 Console.WriteLine(document["name"]);
             }*/
              
-            
             Console.Read();  
         }
     }
