@@ -18,7 +18,7 @@ namespace restScraptor
 
 
             var restCategotries = rest.getRestaurantCategories();
-            var restList = rest.GetResturants();
+            var restList = rest.GetResturants(5);
 
             var client = new MongoClient("mongodb://localhost:27017");
             var server = client.GetServer();

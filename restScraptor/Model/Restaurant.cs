@@ -17,5 +17,7 @@ namespace RestaurantScrapter.Model
         public string Desc { get; set; }
         [BsonElement("classifications")]
         public List<string> Classifications { get; set; }
+        [BsonElement("rating")]
+        public string Rating { get; set; }
     }
 }
